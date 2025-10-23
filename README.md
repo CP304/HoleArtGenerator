@@ -23,7 +23,6 @@ Built entirely in **Python + Tkinter**, no external dependencies beyond standard
 
 ## Known Limitations / Work in Progress
 
-- GUI localization is still partly mixed (a few German texts remain: e.g. *“Farbe wählen”*, *“Paintbrush AUS”*)  
 - FreeCAD STEP export:
   - Requires local FreeCAD installation and proper `sys.path` setup  
   - No error handling if FreeCAD modules are missing  
@@ -43,7 +42,6 @@ Built entirely in **Python + Tkinter**, no external dependencies beyond standard
 
 ##  Planned / Future Additions
 
-- [ ] Translate remaining GUI strings fully to English  
 - [ ] Add progress indicator for batch and export operations  
 - [ ] Improve brush tool with undo/redo and keyboard shortcuts  
 - [ ] Implement DXF layer color coding  
@@ -63,3 +61,4 @@ Install dependencies:
 
 ```bash
 pip install pillow numpy reportlab
+
