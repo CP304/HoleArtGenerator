@@ -776,7 +776,7 @@ class AppGUI:
 
         self.root.config(menu=menubar)
 
-        toolbar = tk.Frame(self.root, bd=1, relief="Groove")
+        toolbar = tk.Frame(self.root, bd=1, relief="groove")
         b_load = tk.Button(toolbar, text="Load image…", command=self.load_image); b_load.pack(side="left", padx=3, pady=3)
         b_batch = tk.Button(toolbar, text="Batch Folder…", command=self.do_batch); b_batch.pack(side="left", padx=3, pady=3)
         tk.Label(toolbar, text=" | ").pack(side="left")
